@@ -1,0 +1,95 @@
+/*text: #0B1942
+inline link: #00B7D3
+h2 background: #0B1942
+h2 color: #FFFFFF
+logo background: #F5005B
+navigation background: #7DDFE8
+navigation link color: #FFFFFF
+"Home" nav link background: #00A5BF
+"Calendar" nav link background: #00B7D3
+"Join" nav link background: #00D5E7
+"Up Next" background: #0B1942
+"Up Next" card background #E2E2E2
+calendar background and treatments: #0B1942
+calendar highlighted day: #F5005B
+button background: #F5005B
+copyright text: #FFFFFF*/
+nav {
+  text-decoration: none;
+}
+
+logo  {
+  flex: 0 2 25%;
+}
+
+h2  {
+  background-color: #0B1942;
+  color:#fff;
+  padding:10px;
+  margin: 0 20px 0 20px;
+}
+
+p {
+  margin:0 20px 0 20px;
+  justify-content: center;
+  padding-bottom: 15px;
+}
+footer  {
+background-color: #7DDFE8;
+text-align: center;
+padding: 50px;
+color:#fff;
+}
+
+.navbar nav{
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+}
+
+.navcon a{
+  color:#fff;
+  text-decoration: none;
+}
+
+.navcon{
+  display:flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  justify-content: space-around;
+  align-content: center;
+    flex: 1 0 65%;
+    text-align: center;
+    text-decoration:none;
+}
+
+.home{
+  text-align: center;
+  padding:23px;
+  background-color: #00A5BF;
+  text-decoration: none;
+}
+.calendar{
+  color:#fff;
+  text-align: center;
+  padding:23px;
+  background-color: #00D5E7;
+  text-decoration: none;
+}
+.join{
+  color:#fff;
+  text-align: center;
+  padding:23px;
+  background-color: #00B7D3;
+  text-decoration: none;
+}
+.logo{
+  background-color: #F5005B;
+  height:192px;
+  width:180px;
+}
+
+.bucket{
+  background-color: #0B1942;
+  align-content:center;
+}
