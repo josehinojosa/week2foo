@@ -14,6 +14,7 @@ calendar background and treatments: #0B1942
 calendar highlighted day: #F5005B
 button background: #F5005B
 copyright text: #FFFFFF*/
+
 nav {
   text-decoration: none;
 }
@@ -92,4 +93,21 @@ color:#fff;
 .bucket{
   background-color: #0B1942;
   align-content:center;
+}
+@media screen and (min-width: 544px){
+  .home, a, .calendar, a, .join, a{
+  display:flex;
+  flex-direction: row;
+  display:inline-block;
+  float: left;
+  flex-wrap: wrap;
+}
+}
+@media screen and (min-width: 768px){
+  .navcon{
+    display: flex;
+    display:inline-block;
+    float: left;
+    flex-wrap:wrap
+  }
 }
